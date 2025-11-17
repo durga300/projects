@@ -1,16 +1,53 @@
-# React + Vite
+# Eduminatti School Listing Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A vibrant, animated school listing portal for finding the best boarding schools in Dehradun and across India.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎨 Colorful and animated design
+- 🔍 Search functionality for schools
+- 📱 Fully responsive layout
+- ⚡ Optimized performance
+- 🖼️ Real school images with fallbacks
 
-## React Compiler
+## Deployment to Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is ready for deployment to Vercel. Simply follow these steps:
 
-## Expanding the ESLint configuration
+1. Push your code to a GitHub repository
+2. Go to [Vercel](https://vercel.com) and sign up/sign in
+3. Click "New Project"
+4. Import your GitHub repository
+5. Vercel will automatically detect the project settings:
+   - Framework: Vite
+   - Build Command: `npm run build`
+   - Output Directory: `dist`
+   - Development Command: `npm run dev`
+6. Click "Deploy" and your site will be live!
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Available Scripts
+
+- `npm run dev` - Starts the development server
+- `npm run build` - Builds the project for production
+- `npm run preview` - Previews the built app locally
+
+## Project Structure
+
+- `src/` - Source code (React components)
+- `public/` - Static assets
+- `dist/` - Production build output
+
+## Performance Optimizations
+
+- Lazy loading images
+- Code splitting
+- Service worker caching
+- Critical CSS inlining
+- Optimized animations
+
+## Learn More
+
+This project was built with:
+- [Vite](https://vitejs.dev)
+- [React](https://reactjs.org)
+- [Web Vitals](https://web.dev/vitals/)

@@ -13,12 +13,20 @@ export default defineConfig({
   build: {
     // Enable compression
     brotliSize: true,
-    chunkSizeWarningLimit: 1000
+    chunkSizeWarningLimit: 1000,
+    // Ensure proper base path for Vercel deployment
+    rollupOptions: {
+      output: {
+        manualChunks: undefined
+      }
+    }
   },
   // Asset optimization
   assetsInclude: ['**/*.jpg', '**/*.png', '**/*.svg', '**/*.webp'],
   // Enable sourcemaps for debugging
   esbuild: {
     sourcemap: true
-  }
+  },
+  // Base path configuration for Vercel
+  base: './'
 })
